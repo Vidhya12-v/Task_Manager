@@ -29,14 +29,14 @@ A full-stack task management application with **Spring Boot** (Backend) and **An
 ```bash
 git clone https://github.com/Vidhya12-v/Task_Manager.git
 cd Task_Manager
-
-3. Run Backend
+```
+2. Run Backend
 ```bash
 cd task-backend
 # Update application.properties with your MySQL password
 mvn clean install
 mvn spring-boot:run
-
+```
 Backend runs on: http://localhost:8081
 
 3. Run Frontend
@@ -44,33 +44,33 @@ Backend runs on: http://localhost:8081
 cd task-frontend
 npm install
 ng serve
-
+```
 Frontend runs on: http://localhost:4200
 ```
 
 ## 📁 Project Structure
 
 Task_Manager/   
-├── task-backend/  # Spring Boot Backend
+├── task-backend/  # Spring Boot Backend     
 │   ├── src/   
-│   │   ├── main/    
-│   │   │   ├── java/        # Java source code
-│   │   │   └── resources/   # Config files
-│   │   └── test/  
-│   └── pom.xml  
-│  
-├── task-frontend/           # Angular Frontend
-│   ├── src/    
+│   │   ├── main/           
+│   │   │   ├── java/        # Java source code     
+│   │   │   └── resources/   # Config files     
+│   │   └── test/            
+│   └── pom.xml            
+│                  
+├── task-frontend/           # Angular Frontend        
+│   ├── src/             
 │   │   ├── app/  
-│   │   │   ├── components/  # Login & Task List
-│   │   │   ├── models/      # TypeScript models
-│   │   │   └── services/    # API services
-│   │   ├── index.html  
-│   │   └── styles.css   
-│   ├── package.json   
-│   └── angular.json  
-│   
-└── README.md   
+│   │   │   ├── components/  # Login & Task List           
+│   │   │   ├── models/      # TypeScript models           
+│   │   │   └── services/    # API services           
+│   │   ├── index.html       
+│   │   └── styles.css          
+│   ├── package.json        
+│   └── angular.json        
+│            
+└── README.md          
 
 
 ### 📝 License
