@@ -12,6 +12,7 @@ A full-stack task management application with **Spring Boot** (Backend) and **An
 - ✅ Browser Notifications for Alerts
 - ✅ Responsive UI
 
+
 ## 🛠️ Tech Stack
 
 | Backend | Frontend |
@@ -22,6 +23,7 @@ A full-stack task management application with **Spring Boot** (Backend) and **An
 | Spring Security | |
 | MySQL | |
 | Maven | |
+
 
 ## 🚀 Quick Start
 
@@ -47,6 +49,7 @@ ng serve
 ```
 Frontend runs on: http://localhost:4200
 
+
 ## 📁 Project Structure
 
 Task_Manager/   
@@ -71,7 +74,7 @@ Task_Manager/
 │            
 └── README.md          
 
-```
+
 ### 📝 License
 This project is for learning purposes.
 
