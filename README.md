@@ -25,12 +25,12 @@ A full-stack task management application with **Spring Boot** (Backend) and **An
 
 ## 🚀 Quick Start
 
-### 1. Clone the Repository
+1. Clone the Repository
 ```bash
 git clone https://github.com/Vidhya12-v/Task_Manager.git
 cd Task_Manager
 
-### 2. Run Backend
+2. Run Backend
 ```bash
 cd task-backend
 # Update application.properties with your MySQL password
@@ -38,15 +38,16 @@ mvn clean install
 mvn spring-boot:run
 Backend runs on: http://localhost:8081
 
-###  3. Run Frontend
+3. Run Frontend
 ```bash
 cd task-frontend
 npm install
 ng serve
 Frontend runs on: http://localhost:4200
+```
 
-### 📁 Project Structure
-text
+## 📁 Project Structure
+
 Task_Manager/
 ├── task-backend/          # Spring Boot Backend
 │   ├── src/
