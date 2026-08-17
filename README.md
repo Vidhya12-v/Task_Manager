@@ -46,8 +46,7 @@ npm install
 ng serve
 ```
 Frontend runs on: http://localhost:4200
-```
-```
+
 ## 📁 Project Structure
 
 Task_Manager/   
